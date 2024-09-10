@@ -17,7 +17,7 @@ Predict if a customer subscribes to a term deposits or not, when contacted by a
 marketing agent, by understanding the different features and performing predictive
 analytics
 
-DatasetInformation:
+Dataset Information:
 
 The data is related with direct marketing campaigns of a Portuguese banking
 institution. The marketing campaigns were based on phone calls. Often, more than one
@@ -31,39 +31,57 @@ Variable Description:
 Column Description
 
 age Age of the client
-Intern Infotech Virtual Learning Internship Program
+
 job Type of job (categorical: 'admin.','blue-collar', 'entrepreneur',
 'housemaid', 'management', 'retired','self-employed', 'services',
 'student', 'technician', 'unemployed', 'unknown')
+
 marital Marital status (categorical:
 'divorced','married','single','unknown'; note: 'divorced' means
 divorced or widowed)
+
 education (categorical: 'basic.4y', 'basic.6y' ,'basic.9y', 'high.school',
 'illiterate', 'professional.course', 'university.degree','unknown')
+
 default has credit in default? (categorical: 'no','yes','unknown')
+
 housing has a housing loan? (categorical: 'no','yes','unknown')
+
 loan has a personal loan? (categorical: 'no','yes','unknown')
+
 contact contact communication type (categorical: 'cellular','telephone')
+
 month last contact month of year (categorical: 'jan', 'feb', 'mar', ...,'nov', 
 'dec')
+
 day_of_week last contact day of the week (categorical:
 'mon','tue','wed','thu','fri')
+
 duration last contact duration, in seconds
+
 campaign number of contacts performed during this campaign and for
 this client (numeric, includes last contact)
+
 pdays number of days that passed by after the client was last
 contacted from a previous campaign (numeric; 999 means
 client was not previously contacted)
+
 previous number of contacts performed before this campaign and forthis
 client
+
 poutcome outcome of the previous marketing campaign (categorical:
 'failure','nonexistent','success')
+
 emp.var.rate employment variation rate - quarterly indicator (numeric)
+
 cons.price.idx consumer price index - monthly indicator
+
 cons.conf.idx consumer confidence index - monthly indicator
-Intern Infotech Virtual Learning Internship Program
+
 euribor3m euribor 3 month rate - daily indicator
+
 nr.employed number of employees - quarterly indicator
+
 y has the client subscribed a term deposit? (binary: 'yes','no')
 
 Scope:
