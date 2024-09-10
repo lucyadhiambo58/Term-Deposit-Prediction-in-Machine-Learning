@@ -87,6 +87,9 @@ y has the client subscribed a term deposit? (binary: 'yes','no')
 Scope:
 
 ● Sentiment analysis in a variety of forms
+
 ● Data Pre-processing
+
 ● Training data using any machine learning model
+
 ● Hyperparameter Tuning
